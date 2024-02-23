@@ -1,0 +1,73 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos da Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 2px solid #e64d00; /* Borda laranja */
+}
+
+th, td {
+    border: 2px solid #e64d00; /* Borda laranja */
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #ffcc00; /* Amarelo McDonald's */
+}
+
+/* Estilos do Título */
+h1 {
+    color: #e64d00; /* Laranja McDonald's */
+}
+
+/* Estilos das Linhas da Tabela */
+.white {
+    background-color: #ffffff;
+}
+
+.yellow {
+    background-color: #ffcc00; /* Amarelo McDonald's */
+}
+
+.green {
+    background-color: #00ff00; /* Verde McDonald's */
+}
+
+.red {
+    background-color: #ff0000; /* Vermelho McDonald's */
+}
+
+.pink {
+    background-color: #ffb6c1; /* Rosa McDonald's */
+}
+
+/* Estilos do Desenho do UHC */
+.uhc {
+    display: flex;
+    justify-content: space-around; /* Mais espaço uniforme entre os elementos */
+    margin: 20px auto;
+    width: 80%;
+}
+
+.drawer, .drawerT {
+    width: 150px; /* Tamanho uniforme para melhor consistência */
+    height: 200px; /* Altura ajustada */
+    border: 2px solid #e64d00; /* Borda laranja */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.drawerT {
+    width: 200px;
+}
+
+.drawer p, .drawerT p {
+    margin: 0;
+}
